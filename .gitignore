@@ -1,0 +1,28 @@
+# Segredos / config local
+.env
+.env.local
+.env.*.local
+
+# Arquivos de contexto/instrução pessoal (referenciam vault e infra privados)
+CLAUDE.md
+ANTIGRAVITY.md
+
+# Estado local do n8nac (cache de sincronização, não é código-fonte)
+.n8nac/
+.n8n-state.json
+.n8n-sync-events.jsonl
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Backups temporários de edição manual do workflow
+*.workflow.ts.bak-*
